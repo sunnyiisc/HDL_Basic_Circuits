@@ -11,7 +11,7 @@ Write HDL code to realize a 4 bit, 1 to 4 demultiplexer. Make the outputs “000
 1. Write the architecture using equations.
 2. Write the architecture in dataflow model using (with ... select) construct.
 
-   Code: ...
+   Code: [VHDL Code](dmux_4bit.vhd), [TestBench](dmux_4bit_tb.vhd)
    
    Functional Simulation Schematic:
    ![schematic](Images/01-b_functional_sim_schematic.png)
