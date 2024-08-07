@@ -2,6 +2,7 @@
  This is the repository of some digital system circuits coded in HDL, both in VHDL and Verilog, starting from the basic level and continuing to a little advanced level.
 
 These circuits are presented as some Lab assignment questions, and I have implemented them in the [Digilent Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start) board.
+
 ![cmod-a7-0](https://github.com/user-attachments/assets/bf2d43b0-0d50-4c7d-8d51-9b7f0b5337f7)
 
 
