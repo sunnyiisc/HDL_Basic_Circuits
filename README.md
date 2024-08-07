@@ -2,12 +2,23 @@
  This is the repository of some digital system circuits coded in HDL, both in VHDL and Verilog, starting from the basic level and continuing to a little advanced level.
 
 These circuits are presented as some Lab assignment questions, and I have implemented them in the [Digilent Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start) board.
+![cmod-a7-0](https://github.com/user-attachments/assets/bf2d43b0-0d50-4c7d-8d51-9b7f0b5337f7)
+
 
 
 ## 1. Demultiplexer
 Write HDL code to realize a 4 bit, 1 to 4 demultiplexer. Make the outputs “0000” when not selected.
 1. Write the architecture using equations.
 2. Write the architecture in dataflow model using (with ... select) construct.
+
+   Code: ...
+   
+   Functional Simulation Schematic:
+   ![schematic](Images/01-b_functional_sim_schematic.png)
+
+   Functional Simulation Waveform:
+   ![schematic](Images/01-b_functional_sim_waveform.png)
+   
 3. Write the behavioral code using (case ... when ...) construct.
 
 ## 2. Priority Encoder
