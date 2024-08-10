@@ -69,6 +69,16 @@ Write HDL code to divide the frequency of a clock by 2.
    ![schematic](Images/06_synthesis_schematic.png)
 
    - Waveform (Timing Simulation):
-   ![schematic](Images/06_synthesis_waveform_timingsim.png)
+   ![schematic](Images/06_synthesis_waveform_timingsim.png
+
+### Implementation:
+   - Schematic:
+   ![schematic](Images/06_implementation_schematic.png)
+
+   - Waveform (Timing Simulation):
+   ![schematic](Images/06_implementation_waveform_timingsim.png)
+
+   - Report (Utilisation & Power):
+   ![schematic](Images/06_implementation_report.png)
 
 ### Implementation:
