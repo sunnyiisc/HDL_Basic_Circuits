@@ -6,7 +6,7 @@ These circuits are presented as some Lab assignment questions, and I have implem
 ![cmod-a7-0](https://github.com/user-attachments/assets/bf2d43b0-0d50-4c7d-8d51-9b7f0b5337f7)
 
 
-
+-------------------
 ## 1. Demultiplexer
 Write HDL code to realize a 4 bit, 1 to 4 demultiplexer. Make the outputs “0000” when not selected.
 1. Write the architecture using equations.
@@ -29,27 +29,32 @@ Write HDL code to realize a 4 bit, 1 to 4 demultiplexer. Make the outputs “000
    
 3. Write the behavioral code using (case ... when ...) construct.
 
+----------------------
 ## 2. Priority Encoder
 Write HDL code to implement a 3-input priority encoder. Encode output as “00” when none of the inputs are asserted.
 1. Write the architecture in dataflow model using (when ... else) construct.
 2. Write the behavioral code using (if ... then ...) construct.
 
+--------------------------------
 ## 3. 2-bit Magnitude Comparator
 Write HDL code to realize a 2-bit Magnitude Comparator. Input to the circuits are two unsigned 2-bit numbers. There are three outputs: 'greater than', 'equal' and 'less than'.
 1. Write the architecture in dataflow model using (with ... select) construct.
 2. Write the behavioral code using (case ... when) construct.
 
+--------------------------------
 ## 4. 4-bit Magnitude Comparator
 Write HDL code to implement a 'Greater Than' magnitude comparator of two unsigned 4-bit numbers. Implement this from scratch using bit level logic function.
 1. Write the architecture in dataflow model using (when ... else) construct.
 2. Write the architecture in dataflow model using equations.
 3. Write the behavioral code using (if ... then ...) construct.
 
+-------------------------
 ## 5. Decrementer Circuit
 Write HDL code of a decrementer (-1) circuit for an unsigned 4-bit number in following two ways. Compare the area (resource utilization) and performance (delay) in each case.
 1. Implement using structural code as a cascade of basic blocks in bit level.
 2. Implement using the operator '-' in 'ieee.std_logic_unsigned' package.
 
+-------------------
 ## 6. Clock Divider
 Write HDL code to divide the frequency of a clock by 2.
 
@@ -80,5 +85,3 @@ Write HDL code to divide the frequency of a clock by 2.
 
    - Report (Utilisation & Power):
    ![schematic](Images/06_implementation_report.png)
-
-### Implementation:
