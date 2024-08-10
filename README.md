@@ -12,13 +12,20 @@ Write HDL code to realize a 4 bit, 1 to 4 demultiplexer. Make the outputs “000
 1. Write the architecture using equations.
 2. Write the architecture in dataflow model using (with ... select) construct.
 
-   Code: [VHDL Code](dmux_4bit.vhd), [TestBench](dmux_4bit_tb.vhd)
+### Code: 
+   - [VHDL Code](dmux_4bit.vhd)
+   - [TestBench](dmux_4bit_tb.vhd)
    
-   Functional Simulation Schematic:
+### Functional Simulation:
+   - Schematic:
    ![schematic](Images/01-b_functional_sim_schematic.png)
 
-   Functional Simulation Waveform:
+   - Waveform:
    ![schematic](Images/01-b_functional_sim_waveform.png)
+
+### Synthesis:
+
+### Implementation:
    
 3. Write the behavioral code using (case ... when ...) construct.
 
@@ -42,3 +49,26 @@ Write HDL code to implement a 'Greater Than' magnitude comparator of two unsigne
 Write HDL code of a decrementer (-1) circuit for an unsigned 4-bit number in following two ways. Compare the area (resource utilization) and performance (delay) in each case.
 1. Implement using structural code as a cascade of basic blocks in bit level.
 2. Implement using the operator '-' in 'ieee.std_logic_unsigned' package.
+
+## 6. Clock Divider
+Write HDL code to divide the frequency of a clock by 2.
+
+### Code: 
+   - [VHDL Code](clk_div_by2.vhd)
+   - [TestBench](clk_div_by2_tb.vhd)
+   
+### Functional Simulation:
+   - Schematic:
+   ![schematic](Images/06_functional_sim_schematic.png)
+
+   - Waveform:
+   ![schematic](Images/06_functional_sim_waveform.png)
+
+### Synthesis:
+   - Schematic:
+   ![schematic](Images/06_synthesis_schematic.png)
+
+   - Waveform (Timing Simulation):
+   ![schematic](Images/06_synthesis_waveform_timingsim.png)
+
+### Implementation:
