@@ -85,3 +85,20 @@ Write HDL code to divide the frequency of a clock by 2.
 
    - Report (Utilisation & Power):
    ![schematic](Images/06_implementation_report.png)
+
+-------------------
+## 7. Clock Divider (generic)
+Write HDL code to divide the frequency of a clock by a multiple of 2 (generic).
+
+-------------------
+## 8. Floating Point Normalizer
+Design a normalizing circuit for de-normal floating point numbers. Assume 16-bit size for the mantissa, including the leading 1. Mantissa of normalized floating point would be read 1.xxx...xx (x: 0 or 1).
+Assume that a de-normalized number is available in one register; after de-normalizing the number, the result is loaded into another register. Assume registers get the same clock. Design the circuit so that the shifting can be done in the same amount of time, irrespective of where leading 1 appears. Also, output the value to be subtracted from the exponent to a port to be used by the exponent circuit.
+
+An example of a de-normalized floating point would be 0.00001xx..xxx (x:0 or 1). This number is normalised by shifting the number left by 5 places.
+
+-------------------
+## 9. Signed 8-bit Radix-4 Booth Recorded Array Multiplier
+Design and implement a signed 8-bit Radix-4 Booth Recorded Array Multiplier (all partial products are generated and added concurrently) using VHDL code. 
+1. Do the structural coding using components for booth recording. Partial products can be added using the built-in operator '+' that would use Carry Propagate Adder resources within FPGA.
+2. Do the pipelining of the above design for maximum throughput. Structural coding can be used as well as behavioural coding (using process). Pipelined registers can be implemented using behavioural code.
